@@ -16,7 +16,6 @@ void main() {
     var input = stdin.readLineSync();
 
     if (input == null) {
-      //print('Error, input is NULL');
       return;
     }
 
