@@ -22,7 +22,6 @@ void main() {
     var guess = int.tryParse(input);
 
     if (guess == null) {
-      //print('Input error, please enter numbers only');
       continue;
     }
 
