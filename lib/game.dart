@@ -12,7 +12,7 @@ class Game {
   int _totalGuesses = 0;
 
   Game({int maxRandom = 100}) : answer = Random().nextInt(maxRandom) + 1 {
-    print('Answer is $answer');
+    print('Enter a maximum number to random:  $answer');
   }
 
   GuessResult doGuess(int guess) {
